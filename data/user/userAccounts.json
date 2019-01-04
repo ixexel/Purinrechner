@@ -1,0 +1,15 @@
+{
+    "000001":
+    {
+        "username": "ixexel",
+        "password": "gichtIstScheiße",
+        "role": "0"
+    },
+    "000002":
+    {
+        "username": "heike",
+        "password": "heike",
+        "role": "1",
+        "belong": ["000001"]
+    }
+}

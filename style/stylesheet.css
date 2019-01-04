@@ -1,0 +1,230 @@
+body {
+    background-color: #5CDB95;
+}
+
+html {
+    background-color: #5CDB95;
+}
+
+#Welcome {
+    color: #EDF5E1;
+    font-family: "Thasadith", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#siteTitle {
+    color: #EDF5E1;
+    background-color: #5CDB95;
+    font-family: "Thasadith", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 0.7%;
+    
+}
+
+#impTitle {
+    color: #EDF5E1;
+    font-family: "Thasadith", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+label {
+    color: #EDF5E1;
+    font-family: "Thasadith", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 33%;
+}
+
+input {
+    background-color: #379683;
+    color: #EDF5E1;
+    border: none;
+    font-family: "Thasadith", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 33%;
+    height: 24px;
+    margin-left: 33%;
+}
+
+input:focus {
+    background-color: #8EE4AF;
+    color: #EDF5E1;
+    border: none;
+    font-family: "Thasadith", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 33%;
+    height: 24px;
+    margin-left: 33%;
+    outline: none;
+}
+
+button {
+    background-color: #379683;
+    color: #EDF5E1;
+    border: none;
+    font-family: "Thasadith", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 20%;
+    height: 24px;
+    margin-left: 40%;
+    margin-top: 1%; 
+}
+
+button:hover{
+    background-color: #8EE4AF;
+    color: #EDF5E1;
+    border: none;
+    font-family: "Thasadith", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 20%;
+    height: 24px;
+    margin-left: 40%;
+    margin-top: 1%; 
+    outline: none;
+}
+
+#bkg-image {
+    margin-top: 4%;
+    margin-left: 70%;
+}
+
+#startLink {
+    color: #EDF5E1;
+    font-family: "Thasadith", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10%;
+    margin-left: 90%;
+}
+
+#startLink:hover {
+    color: #05386B;
+    font-family: "Thasadith", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10%;
+    margin-left: 90%;
+}
+
+a {
+    color: #EDF5E1;
+}
+
+a:hover {
+    color: #05386B;
+}
+
+#impressum {
+    color: #EDF5E1;
+    font-family: "Thasadith", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.navbar {
+    background-color: #05386B;
+    color: #EDF5E1;
+    font-family: "Thasadith", sans-serif;
+    font-weight: 400;
+}
+
+#navbarLogo {
+    color: #EDF5E1;
+}
+
+#navbarItem {
+    color: #EDF5E1;
+}
+
+#navbarSupportedContent {
+    color: #EDF5E1;
+}
+
+.loader {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-family: "Thasadith", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #EDF5E1;
+    letter-spacing: 0.2em;
+}
+
+.loader::before, .loader::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #05386B;
+  position: absolute;
+  -webkit-animation: load .7s infinite alternate ease-in-out;
+          animation: load .7s infinite alternate ease-in-out;
+}
+
+.loader::before {
+  top: 0;
+}
+
+.loader::after {
+  bottom: 0;
+}
+
+@-webkit-keyframes load {
+  0% {
+    left: 0;
+    height: 30px;
+    width: 15px;
+  }
+  50% {
+    height: 8px;
+    width: 40px;
+  }
+  100% {
+    left: 235px;
+    height: 30px;
+    width: 15px;
+  }
+}
+
+@keyframes load {
+  0% {
+    left: 0;
+    height: 30px;
+    width: 15px;
+  }
+  50% {
+    height: 8px;
+    width: 40px;
+  }
+  100% {
+    left: 235px;
+    height: 30px;
+    width: 15px;
+  }
+};
