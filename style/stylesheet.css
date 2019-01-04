@@ -22,7 +22,7 @@ html {
     font-size: 48px;
     font-weight: 400;
     text-align: left;
-    padding-left: 0.7%;
+    padding-left: 1.2%;
     
 }
 
@@ -151,12 +151,46 @@ a:hover {
     color: #EDF5E1;
 }
 
+#navbarLogo:hover {
+    color: #5CDB95;
+}
+
+element.style {
+    background-color: #5CDB95;
+}
+
 #navbarItem {
     color: #EDF5E1;
 }
 
-#navbarSupportedContent {
+#navbarItem:hover {
+    color: #5CDB95;
+}
+
+#navbarItemActive {
+    color: #8EE4AF;
+}
+
+#navbarItemActive:hover {
+    color: #5CDB95;
+}
+
+#startLogo {
     color: #EDF5E1;
+    background-color: #5CDB95;
+    height: 25%;
+    width: 25%;
+    margin-left: 5%;
+}
+
+#startLogo:hover {
+    color: #05386B;
+}
+
+#startDiv {
+    background-color: #5CDB95;
+    padding-left: 25%;
+    padding-top: 10%;
 }
 
 .loader {

@@ -3,37 +3,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Purinrechner</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../img/Purinrechner_logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
     <link rel="stylesheet" href="../style/stylesheet.css" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Thasadith:400,700">
     <link rel="stylesheet" href="../style/bootstrap/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="navbar navbar-toggleable-md navbar-light">
-
-      <a class="navbar-brand" href="start.html" id="navbarLogo">
-        <img src="../img/Purinrechner_logo.png" width="30" height="30" class="d-inline-block align-top" alt="Navigation Logo">
-        Purinrechner
-      </a> 
-  
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-              <a class="nav-link" href="start.html" id="navbarItem">Start</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="calculator.html" id="navbarItem">Rechner</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <nav class="navbar navbar-expand navbar-light">
+                <a class="navbar-brand" href="start.html" id="navbarLogo">
+                  <img src="../img/Purinrechner_logo.png" width="30" height="30" class="d-inline-block align-top" alt="Navigation Logo">
+                  Purinrechner
+                </a> 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse mt-1" id="navbarSupportedContent">
+                        <a class="nav-item nav-link active" href="start.html" id="navbarItemActive">Start <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="calculator.html" id="navbarItem">Rechner</a>
+                        <a class="nav-item nav-link" href="table.html" id="navbarItem">Purintabelle</a>
+                </div>
+              </nav>
 
     <h1 id="siteTitle">Start</h1>
-    <div class="loader">Kommt bald...</div>
+    <div id="startDiv">
+        <a href="calculator.html">
+            <i class="fas fa-calculator" id="startLogo"></i>
+        </a>
+        <a href="table.html">
+            <i class="fas fa-table" id="startLogo"></i>
+        </a> 
+    </div>
+    
 
         <!--Bootstrap-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="../script/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="../script/bootstrap/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
 </html>
